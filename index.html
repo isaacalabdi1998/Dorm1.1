@@ -20,31 +20,40 @@
 </body>
 
 <!-- Start NavBar ------------------------------------------ -->
-<div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
-    <div class="container">
-        <img src="img/logo.ico" alt="" class="logo">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainmenu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+<section id="HOME">
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
+        <div class="container">
+            <img src="img/logo.ico" alt="" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu" >
+                <ul class="navbar-nav ms-auto">
+                    
+                    <a href="#HOME" class="nav-link"><li class="nav-item"></li>Home</a>
+                    <a href="#learn" class="nav-link"><li class="nav-item"></li>About</a>
+                    <a href="#GALLERY" class="nav-link"><li class="nav-item"></li>Gallery</a>
+                    <a href="#ABOUTUS" class="nav-link"><li class="nav-item"></li>About Us</a>
+                    <a href="#SERVICES" class="nav-link"><li class="nav-item"></li>Services</a>
+                    <a href="#TESTIMONIALS" class="nav-link"><li class="nav-item"></li>FAQ</a>
 
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">language</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#learn" class="dropdown-item">Arabic</a></li>
-                        <li><a href="#next" class="dropdown-item">English</a></li>
-                    </ul>
-                </li>
-            </ul>
+                    
+                    
+    
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">language</a>
+                        <ul class="dropdown-menu">
+                            
+                            <a href="pages/index-ar.html" class="dropdown-item"><li></li>Arabic</a>
+                            <li><a href="#next" class="dropdown-item">Turkish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 <!-- End   NavBar ------------------------------------------ -->
 
 
@@ -67,6 +76,7 @@
         <div class="introduction-text">
             <h1>Welcome to the student <span>science</span> accommodation </h1>   
             <p>accommodation <span>science</span> is not just housing</p>
+            <p></p>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -84,7 +94,7 @@
 
 <!-- Startr About Dorm ----------------------------------------------------------- -->
 <!-- Start What To Learn  -->
-<section id="learn" class="py-5" style="background-color: #eee;">
+<section id="learn" class="py-5" style="background-color: #eee;" >
     <div class="container">
         <div class="main-heading" style="margin-top: 50px;">
             <h2>Absout The Accommodation</h2>
@@ -140,7 +150,7 @@
 
 
 <!-- Start Video ----------------------------------------------------------- -->
-<section class="bg-dark" style="padding-top: 30px;">
+<section class="bg-dark" style="padding: 30px 0 30px 0;">
     <div class="container">
         <div class="main-headings" style="margin-top: 50px;">
             <h2>Video</h2>
@@ -157,7 +167,7 @@
 
 
 <!-- Start gallery ----------------------------------------------------------- -->
-<section class="bg-dark" style="padding: 30px;">
+<section class="bg-dark" style="padding: 30px;" id="GALLERY">
     <div class="container">
         <div class="main-headings" style="margin-top: 50px;">
             <h2>Gallery</h2>
@@ -323,7 +333,7 @@
 
 <!-- Start Features ----------------------------------------------------------- -->
 <section >
-    <div class="features">
+    <div class="features" id="SERVICES">
         <div class="main-heading">
             <h2>services</h2> 
             <p>Services provided by the Science Accommodation</p>
